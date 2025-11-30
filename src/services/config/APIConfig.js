@@ -4,9 +4,6 @@ const baseURL = 'https://localhost:8000';
 
 let api = axios.create({
   baseURL: baseURL,
-  headers: {
-    'Content-Type': 'application/json',
-  },
 });
 
 // Xử lý call API gặp lỗi 401 hoặc 403
